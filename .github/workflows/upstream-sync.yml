@@ -30,7 +30,7 @@ jobs:
     # 使用矩阵，同步多个分支时，只需在下面的数组中添加分支名即可
     strategy:
       matrix:
-        branch: [ main, dev ] # 可扩展为 [main, dev, release] 等
+        branch: [ main ] # 可扩展为 [main, dev, release] 等
 
     steps:
       # 步骤1：把本仓库代码拉下来，供后面合并
